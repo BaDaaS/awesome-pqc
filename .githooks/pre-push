@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Pre-push hook: regenerate README ToC and auto-commit if changed.
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+SCRIPT="${REPO_ROOT}/scripts/generate-toc.sh"
+README="${REPO_ROOT}/README.md"
+
+if [ ! -x "$SCRIPT" ]; then
+  echo "pre-push: ToC script not found or not executable" >&2
+  exit 0
+fi
+
+bash "$SCRIPT" "$README"
+
+# Check if README changed
+if ! git diff --quiet -- "$README"; then
+  echo "pre-push: README ToC updated, committing..."
+  git add "$README"
+  git commit -m "README: update table of contents"
+  echo "pre-push: ToC commit created."
+fi

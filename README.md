@@ -1,5 +1,19 @@
 # Awesome Post-Quantum Cryptography
 
+<!-- toc -->
+
+## Table of Contents
+
+- [Mathematical foundations](#mathematical-foundations)
+- [Transition to PQC](#transition-to-pqc)
+  - [Talks](#talks)
+    - [2026](#2026)
+- [Companies](#companies)
+  - [Building Quantum Computers](#building-quantum-computers)
+- [Algorithms](#algorithms)
+
+<!-- /toc -->
+
 ## Mathematical foundations
 
 ## Transition to PQC
