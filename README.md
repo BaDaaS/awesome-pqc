@@ -35,6 +35,10 @@ In quantum computing, we use terms as
 registers](https://en.wikipedia.org/wiki/Quantum_register) (an "aggregation" of
 qubits", as "classical" registers are an "aggregation" of bits).
 
+Different models of quantum registers exist, depending on which quantum
+physical model they are based on. See the section about "Physical foundations"
+for more details.
+
 ## Mathematical foundations
 
 ## Physical foundations
