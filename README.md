@@ -26,6 +26,14 @@ worth exploring; we only target currently or near-term usable technologies.
 
 <!-- /toc -->
 
+## Introduction
+
+A quantum computer is an alternative to classical computer.
+In quantum computing, we use terms as
+[qubits](https://en.wikipedia.org/wiki/Qubit), [quantum
+registers](https://en.wikipedia.org/wiki/Quantum_register) (an "aggregation" of
+qubits", as "classical" registers are an "aggregation" of bits).
+
 ## Mathematical foundations
 
 ## Physical foundations
