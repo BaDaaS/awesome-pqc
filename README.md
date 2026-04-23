@@ -15,6 +15,8 @@ worth exploring; we only target currently or near-term usable technologies.
 ## Table of Contents
 
 - [Mathematical foundations](#mathematical-foundations)
+- [Physical foundations](#physical-foundations)
+  - [Neutral atoms](#neutral-atoms)
 - [Transition to PQC](#transition-to-pqc)
   - [Talks](#talks)
     - [2026](#2026)
